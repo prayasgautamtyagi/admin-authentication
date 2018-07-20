@@ -1,0 +1,142 @@
+.Login {
+	width: 20%;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: #dfe4ea;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0 0 20px #2f3542;
+	font-size: 20px;
+}
+
+.Login p {
+	color: red;
+	width:200px;
+	margin: 5px; 
+}
+
+.Login div {
+	margin: 10px;
+}
+
+.Login input{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.Login Button {
+	width: 120px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 2px;
+	font-size: 16px;
+}
+
+.Login Button:hover {
+	box-shadow: 0 0 10px #2f3542;
+}
+
+.CategoryDisplayer {
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	border-bottom: 0;
+	width: 60%;
+	background-color: rgb(205, 227, 255);
+	font-size: 25px;
+	border-radius: 2px;
+}
+
+.CategoryDisplayer p{
+   color: white;
+   font-weight: bolder;
+   font-size: 2rem;
+}
+
+.CategoryDisplayer button {
+	height: 30px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 2px;
+	margin: 5px;
+}
+
+.CategoryDisplayer img{
+	width: 150px;
+	height: 150px;
+ }
+
+.productsContainer {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: aliceblue;
+	width: 100%;
+}
+
+.individualProduct {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid black;
+	height: 200px;
+}
+
+.individualProduct .categoryName {
+	border-left: 1px solid black;
+	padding-left: 20px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.individualProduct .categoryImage {
+	padding: 20px;
+	width: 200px;
+}
+
+.addCategoryWrapper {
+	background:rgba(255,255,255,0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 650px;
+	background: rgba(0,0,0, 0.05);
+} 
+
+.addCategoryContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	height: 60px;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.addCategoryContainer button{
+	width: 20%;
+	font-size: 1.2rem;
+	height: 60px;
+}
+
+.addCategoryContainer input{
+	font-size: 1.2rem;
+	padding: 5px;
+	width: 40%;
+	height: 48px;
+	border: 1px solid black;
+}
+
+
